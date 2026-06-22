@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"/d/Sass Dashboard/src\" && grep -roE \"\\(bg|border|ring|divide\\)-white/[0-9]+\" . | sed -E 's/^[^:]*:?//' | sort -u)",
+      "Read(//d/d/Sass Dashboard/**)"
+    ]
+  }
+}

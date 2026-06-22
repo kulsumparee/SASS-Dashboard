@@ -1,0 +1,17 @@
+export const users = [
+  { id: 'u001', name: 'Sarah Johnson',   email: 'sarah.j@acmecorp.com',   role: 'Admin',    status: 'active',   plan: 'Pro',      joined: '2024-01-12', lastActive: '2025-03-14', revenue: 299 },
+  { id: 'u002', name: 'Marcus Chen',     email: 'marcus@techflow.io',      role: 'Member',   status: 'active',   plan: 'Pro',      joined: '2024-02-08', lastActive: '2025-03-13', revenue: 299 },
+  { id: 'u003', name: 'Priya Patel',     email: 'priya@innovate.co',       role: 'Member',   status: 'active',   plan: 'Starter',  joined: '2024-02-19', lastActive: '2025-03-10', revenue: 49  },
+  { id: 'u004', name: 'James Wilson',    email: 'james.w@buildspace.com',  role: 'Viewer',   status: 'inactive', plan: 'Free',     joined: '2024-03-05', lastActive: '2025-01-22', revenue: 0   },
+  { id: 'u005', name: 'Aisha Okafor',    email: 'aisha@launchpad.ng',      role: 'Admin',    status: 'active',   plan: 'Enterprise', joined: '2024-03-18', lastActive: '2025-03-14', revenue: 999 },
+  { id: 'u006', name: 'Luca Ferrari',    email: 'luca.f@designstudio.it',  role: 'Member',   status: 'active',   plan: 'Pro',      joined: '2024-04-02', lastActive: '2025-03-12', revenue: 299 },
+  { id: 'u007', name: 'Emily Rodriguez', email: 'emily.r@growthco.com',    role: 'Member',   status: 'suspended', plan: 'Starter', joined: '2024-04-14', lastActive: '2025-02-28', revenue: 49  },
+  { id: 'u008', name: 'Noah Tanaka',     email: 'noah.t@startup.jp',       role: 'Viewer',   status: 'active',   plan: 'Free',     joined: '2024-05-01', lastActive: '2025-03-09', revenue: 0   },
+  { id: 'u009', name: 'Sofia Garcia',    email: 'sofia@scaleit.es',        role: 'Admin',    status: 'active',   plan: 'Enterprise', joined: '2024-05-20', lastActive: '2025-03-14', revenue: 999 },
+  { id: 'u010', name: 'Ethan Kim',       email: 'ethan.kim@pixels.kr',     role: 'Member',   status: 'active',   plan: 'Pro',      joined: '2024-06-08', lastActive: '2025-03-11', revenue: 299 },
+  { id: 'u011', name: 'Olivia Brown',    email: 'olivia@cloudworks.au',    role: 'Member',   status: 'active',   plan: 'Starter',  joined: '2024-06-25', lastActive: '2025-03-08', revenue: 49  },
+  { id: 'u012', name: 'Raj Mehta',       email: 'raj.m@fintech.in',        role: 'Viewer',   status: 'inactive', plan: 'Free',     joined: '2024-07-10', lastActive: '2024-12-15', revenue: 0   },
+  { id: 'u013', name: 'Hannah Lee',      email: 'hannah@nextwave.sg',      role: 'Admin',    status: 'active',   plan: 'Pro',      joined: '2024-07-22', lastActive: '2025-03-13', revenue: 299 },
+  { id: 'u014', name: 'Carlos Mendez',   email: 'c.mendez@pixelcraft.mx',  role: 'Member',   status: 'active',   plan: 'Starter',  joined: '2024-08-05', lastActive: '2025-03-07', revenue: 49  },
+  { id: 'u015', name: 'Yuki Yamamoto',   email: 'yuki@shiftlabs.jp',       role: 'Member',   status: 'active',   plan: 'Enterprise', joined: '2024-08-19', lastActive: '2025-03-14', revenue: 999 },
+]
