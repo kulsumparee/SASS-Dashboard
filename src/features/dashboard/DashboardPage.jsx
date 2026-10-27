@@ -25,6 +25,7 @@ const KPI_CARDS = [
     icon:      DollarSign,
     color:     'primary',
     ...kpiData.revenue,
+    value:     kpiData.revenue.current,   // mock data exposes `current`; KPICard reads `value`
   },
   {
     id:        'users',
@@ -33,6 +34,7 @@ const KPI_CARDS = [
     icon:      Users,
     color:     'success',
     ...kpiData.users,
+    value:     kpiData.users.current,   // mock data exposes `current`; KPICard reads `value`
   },
   {
     id:        'sales',
@@ -41,6 +43,7 @@ const KPI_CARDS = [
     icon:      ShoppingCart,
     color:     'warning',
     ...kpiData.sales,
+    value:     kpiData.sales.current,   // mock data exposes `current`; KPICard reads `value`
   },
   {
     id:        'conversion',
@@ -49,6 +52,7 @@ const KPI_CARDS = [
     icon:      TrendingUp,
     color:     'accent',
     ...kpiData.conversion,
+    value:     kpiData.conversion.current,   // mock data exposes `current`; KPICard reads `value`
   },
 ]
 
